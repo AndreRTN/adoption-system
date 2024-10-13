@@ -3,7 +3,9 @@ Projeto de gestão de adoção de animais
 
 ---
 
-> ### Forma mais fácil de executar o projeto: na pasta raiz, execute o comando `docker-compose up --build`
+> ### Forma mais fácil de executar o projeto: em uma pasta vazia, execute os seguintes comandos: 
+  - `git clone --recurse-submodules https://github.com/AndreRTN/adoption-system`
+  - `docker-compose up --build`
 
 > Backend do sistema de gestão de adoção de animais
 

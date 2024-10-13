@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/adoption" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/adoption-frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/adoption-system-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/adoption-system-frontend" vcs="Git" />
   </component>
 </project>
