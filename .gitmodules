@@ -1,3 +1,7 @@
 [submodule "adoption-system-frontend"]
 	path = adoption-system-frontend
 	url = https://github.com/AndreRTN/adoption-system-frontend
+
+[submodule "adoption-system-backend"]
+	path = adoption-system-backend
+	url = https://github.com/AndreRTN/adoption-system-backend
