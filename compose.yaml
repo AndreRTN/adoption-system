@@ -1,10 +1,10 @@
 services:
    adoption-backend:
       extends:
-         file: adoption/compose.yaml
+         file: adoption-system-backend/compose.yaml
          service: backend
 
    adoption-frontend:
       extends:
-         file: adoption-frontend/compose.yaml
+         file: adoption-system-frontend/compose.yaml
          service: frontend
