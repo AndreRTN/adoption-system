@@ -3,8 +3,12 @@ services:
       extends:
          file: adoption-system-backend/compose.yaml
          service: backend
+         dockerfile: Dockerfile
 
    adoption-frontend:
       extends:
          file: adoption-system-frontend/compose.yaml
          service: frontend
+         dockerfile: Dockerfile
+      depends_on:
+         - adoption-backend
